@@ -83,16 +83,13 @@ class CursorGroqConfig:
             if api_key:
                 return api_key
 
-        # Return default (from your curl command)
-        return "REMOVED_GROQ_KEY"
+        # No default key
+        return ""
 
     def is_configured(self) -> bool:
         """Check if Groq API is properly configured."""
         api_key = self.get_api_key()
-        return bool(
-            api_key
-            and api_key != "REMOVED_GROQ_KEY"
-        )
+        return bool(api_key)
 
     def get_config_info(self) -> dict:
         """Get configuration information."""

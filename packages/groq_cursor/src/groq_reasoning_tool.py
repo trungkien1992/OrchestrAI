@@ -18,9 +18,10 @@ class GroqReasoningTool:
     """
 
     def __init__(self):
-        self.api_key = os.getenv(
-            "GROQ_API_KEY", "REMOVED_GROQ_KEY"
-        )
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            raise ValueError("GROQ_API_KEY environment variable not set. Please configure your API key.")
+        self.api_key = api_key
         self.base_url = "https://api.groq.com"
         self.model = "moonshotai/kimi-k2-instruct"
         self.timeout = 30
