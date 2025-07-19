@@ -1,0 +1,20 @@
+# Core dependencies for Claude Code Context Plugin
+# These are the minimal requirements for the plugin to work
+
+# Standard library modules (no external dependencies needed)
+# The plugin is designed to work with Python 3.8+ standard library
+
+# Optional enhanced dependencies (install with pip install -e .[enhanced])
+# psutil>=5.8.0          # For system monitoring
+# aiofiles>=0.7.0        # For async file operations
+# aiohttp>=3.8.0         # For async HTTP operations
+# rich>=12.0.0           # For enhanced terminal output
+# click>=8.0.0           # For better CLI interface
+
+# Development dependencies (install with pip install -e .[dev])
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# pytest-cov>=4.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+# mypy>=0.991

@@ -1,0 +1,43 @@
+{
+  "session_id": "test_20250719_141930",
+  "generated_at": "2025-07-19T14:19:30.371199",
+  "total_events": 5,
+  "overall_metrics": {
+    "average_effectiveness": 0.815,
+    "average_confidence": 0.825,
+    "average_quality": 0.885,
+    "total_errors": 1
+  },
+  "phase_metrics": {
+    "code": {
+      "event_count": 2,
+      "average_effectiveness": 0.815,
+      "average_confidence": 0.825,
+      "average_quality": 0.885
+    },
+    "explore": {
+      "event_count": 1,
+      "average_effectiveness": 0.9,
+      "average_confidence": 0.85,
+      "average_quality": 0.9
+    },
+    "express": {
+      "event_count": 1,
+      "average_effectiveness": 0.85,
+      "average_confidence": 0.9,
+      "average_quality": 0.8
+    }
+  },
+  "event_type_distribution": {
+    "code_generation": 1,
+    "context_optimization": 1,
+    "error_occurrence": 1,
+    "performance_metric": 1,
+    "rag_query": 1
+  },
+  "recommendations": [
+    "Performance is optimal - no specific recommendations"
+  ],
+  "validation_system": "Enhanced EAEPT Validation Logger v1.0",
+  "test_mode": true
+}

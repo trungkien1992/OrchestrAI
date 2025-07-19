@@ -1,0 +1,2 @@
+-e ./packages/context_plugin
+-e ./packages/groq_cursor 

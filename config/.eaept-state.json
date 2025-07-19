@@ -1,0 +1,73 @@
+{
+  "current_phase": "complete",
+  "current_task": "Standalone workflow innovation test",
+  "workflow_state": "in_progress",
+  "phase_metrics": {
+    "express": {
+      "start_time": "2025-07-19T15:17:48.550683",
+      "end_time": "2025-07-19T15:17:49.051842",
+      "duration_minutes": 0.00835265,
+      "token_usage": 0,
+      "completion_confidence": 0.85,
+      "quality_score": 0.8,
+      "notes": []
+    },
+    "ask": {
+      "start_time": "2025-07-19T15:17:49.053100",
+      "end_time": "2025-07-19T15:17:56.329554",
+      "duration_minutes": 0.12127423333333334,
+      "token_usage": 0,
+      "completion_confidence": 0.9,
+      "quality_score": 0.85,
+      "notes": []
+    },
+    "explore": {
+      "start_time": "2025-07-19T15:17:56.330192",
+      "end_time": "2025-07-19T15:18:40.609945",
+      "duration_minutes": 0.7379958833333333,
+      "token_usage": 0,
+      "completion_confidence": 0.8,
+      "quality_score": 0.85,
+      "notes": []
+    },
+    "plan": {
+      "start_time": "2025-07-19T15:18:40.610793",
+      "end_time": "2025-07-19T15:18:41.012191",
+      "duration_minutes": 0.006689966666666667,
+      "token_usage": 0,
+      "completion_confidence": 0.85,
+      "quality_score": 0.9,
+      "notes": []
+    },
+    "code": {
+      "start_time": "2025-07-19T15:18:41.014503",
+      "end_time": "2025-07-19T15:18:41.614982",
+      "duration_minutes": 0.010007983333333333,
+      "token_usage": 0,
+      "completion_confidence": 0.8,
+      "quality_score": 0.85,
+      "notes": []
+    },
+    "test": {
+      "start_time": "2025-07-19T15:18:41.617196",
+      "end_time": "2025-07-19T15:18:44.744351",
+      "duration_minutes": 0.05211925,
+      "token_usage": 0,
+      "completion_confidence": 0.9,
+      "quality_score": 0.95,
+      "notes": []
+    },
+    "complete": {
+      "start_time": "2025-07-19T15:18:44.744576",
+      "end_time": null,
+      "duration_minutes": 2.0233333333333335e-05,
+      "token_usage": 0,
+      "completion_confidence": 0.0,
+      "quality_score": 0.0,
+      "notes": []
+    }
+  },
+  "session_start": "2025-07-19T15:17:48.550641",
+  "last_update": "2025-07-19T15:18:44.745796",
+  "auto_orchestration_enabled": true
+}

@@ -1,0 +1,10 @@
+# Example config for Decision Engine
+thresholds:
+  confidence: 0.8
+  risk: 0.2
+limits:
+  max_actions: 5
+  max_depth: 3
+preferences:
+  allow_external_commands: false
+  log_level: INFO 
